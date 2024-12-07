@@ -1,6 +1,6 @@
 /* Website template by freewebsitetemplates.com */
 body {
-    background: url(file:///C:/Users/Nutwara%20sirikhate/Documents/GitHub/SirikhateNutwara/images/Doggohead.jpg);
+    background: url('https://www.canva.com/design/DAGYny_sbBc/si7McGsT7fM7AtRpMnlA5Q/view');
     color: #d5b084;
     font-family: 'open_sansregular';
     font-size: 12px;
@@ -470,6 +470,7 @@ p a:hover {
 	background: url(../images/icon-arrow.png) no-repeat left center;
 	color: #b0c26d;
 	display: inline-block;
+	float: right;
 	font-size: 10px;
 	letter-spacing: 0.01em;
 	margin: 10px 0 0 0;
@@ -642,6 +643,7 @@ p a:hover {
 }
 #page div div#footer div.section div#connect a {
 	display: inline-block;
+	float: left;
 	height: 18px;
 	margin: 0 8px;
 	text-indent: -99999px;
