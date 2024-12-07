@@ -1,9 +1,9 @@
 /* Website template by freewebsitetemplates.com */
 body {
-	background: linear-gradient(to bottom, #f5f5f5, #eaeaea), url(../images/bg-body.jpg) repeat center top;
-	color: #4a4a4a; /* Changed from #d5b084 to a darker shade for better readability */
-	font-family: 'open_sansregular', sans-serif; /* Added a fallback font */
-	font-size: 14px; /* Increased font size from 12px to 14px for better legibility */
+	background: url(../images/bg-body.jpg) repeat center top;
+	color: #d5b084;
+	font-family: 'open_sansregular';
+	font-size: 12px;
 	margin: 0;
 	min-width: 960px;
 	padding: 0;
@@ -58,7 +58,7 @@ p a:hover {
 #page div div#header {
 	background: #185;
 	overflow: hidden;
-	padding: 10;
+	padding: ;
 	width: auto;
 }
 #page div div#header img {
