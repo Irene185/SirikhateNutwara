@@ -680,3 +680,19 @@ p a:hover {
     margin-left: 20px;
     vertical-align: middle;
 }
+.footer-image {
+    width: 100px;  /* Adjust the width as needed */
+    height: auto;  /* Keep the aspect ratio intact */
+}
+
+/* Style for the ID and Name in the footer */
+.footer-info p {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 10px;  /* Add space around the text */
+    border: 2px solid #ccc; /* Border around the background */
+    border-radius: 5px; /* Optional: rounded corners */
+    font-size: 14px;  /* Adjust the text size */
+    text-align: center; /* Center the text */
+    margin-top: 10px;  /* Add some space above the text */
+    color: #333;  /* Adjust text color */
+}
