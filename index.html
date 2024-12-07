@@ -3,7 +3,13 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Yay&#39;Koffee Website Template</title>
+	<title><script>
+		document.addEventListener("DOMContentLoaded", function() {
+			const welcomeMessage = document.createElement("h1");
+			welcomeMessage.textContent = "Welcome to My Awesome Website!";
+			document.body.prepend(welcomeMessage);
+		});
+	</script></title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
