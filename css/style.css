@@ -1,6 +1,6 @@
 /* Website template by freewebsitetemplates.com */
 body {
-	background: url(../images/bg-body.jpg) repeat center top;
+	background: url(Add a heading.jpg) repeat center top;
 	color: #d5b084;
 	font-family: 'open_sansregular';
 	font-size: 12px;
@@ -681,18 +681,18 @@ p a:hover {
     vertical-align: middle;
 }
 .footer-image {
-    width: 100px;  /* Adjust the width of the image */
-    height: auto;  /* Maintain aspect ratio */
+    width: 100px;  /* Adjust the width as needed */
+    height: auto;  /* Keep the aspect ratio intact */
 }
 
-/* Style the ID and Name in the footer */
+/* Style for the ID and Name in the footer */
 .footer-info p {
     background-color: #f0f0f0; /* Light grey background */
-    padding: 10px;  /* Space around the text */
+    padding: 10px;  /* Add space around the text */
     border: 2px solid #ccc; /* Border around the background */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 14px;  /* Text size */
+    border-radius: 5px; /* Optional: rounded corners */
+    font-size: 14px;  /* Adjust the text size */
     text-align: center; /* Center the text */
-    margin-top: 10px;  /* Space above */
-    color: #333;  /* Text color */
+    margin-top: 10px;  /* Add some space above the text */
+    color: #333;  /* Adjust text color */
 }
