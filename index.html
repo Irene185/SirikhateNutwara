@@ -11,6 +11,10 @@
 		<div>
 			<div id="header">
 				<a href="index.html"><img src="https://pngimg.com/uploads/doge_meme/doge_meme_PNG2.png" alt="Image" style="width: 150px; height: auto;"></a>
+				
+				<!-- This div will hold the welcoming message -->
+				<div id="welcome-message"></div> <!-- Placeholder for the message -->
+				
 				<ul>
 					<li class="current">
 						<a href="index.html">Home</a>
@@ -138,5 +142,19 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			// Only add the welcoming message on the index page
+			if (window.location.pathname === "/index.html" || window.location.pathname === "/") {
+				// Create a welcoming message element
+				const welcomeMessage = document.createElement("h2");
+				welcomeMessage.textContent = "Welcome to Doggo World!";  // Change the text here
+	
+				// Get the 'welcome-message' div and insert the message
+				const welcomeDiv = document.getElementById("welcome-message");
+				welcomeDiv.appendChild(welcomeMessage);
+			}
+		});
+	</script>
 </body>
 </html>

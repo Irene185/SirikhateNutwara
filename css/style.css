@@ -673,10 +673,10 @@ p a:hover {
 #page div div#footer div.section div#connect a#rss:hover {
 	background: url(../images/icons.png) no-repeat -18px -84px;
 }
-#welcome-message {
-    font-size: 14px;  /* Adjust the size as needed */
-    color: #333;      /* Set the text color */
-    margin-left: 20px; /* Add space between the image and text */
-    display: inline-block; /* Align next to the image */
-    vertical-align: middle; /* Vertically align with the image */
+#welcome-message h2 {
+    font-size: 18px;
+    color: #333;  /* You can choose any color you prefer */
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: middle;
 }
