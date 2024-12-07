@@ -5,6 +5,72 @@
     <meta charset="UTF-8">
     <title>SirikhateCoffee</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        /* CSS styles for centering the Doggo Game section */
+        #guardian-doggo {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0;
+        }
+
+        .doggo-game-box {
+            background-color: #f0f0f0; /* Light grey background */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 60%; /* Adjust this to control the width of the box */
+            max-width: 500px; /* Maximum width */
+            margin: 0 auto;
+        }
+
+        #guardian-doggo h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        #guardian-doggo p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        #guardian-doggo input {
+            padding: 10px;
+            width: 80%;
+            margin-bottom: 10px;
+            font-size: 16px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #guardian-doggo button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #guardian-doggo button:hover {
+            background-color: #45a049;
+        }
+
+        #doggo-result img {
+            width: 200px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        #doggo-result p {
+            font-size: 18px;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
     <div id="page">
@@ -35,13 +101,15 @@
 
             <!-- New Section: Guardian Doggo Game -->
             <div id="guardian-doggo">
-                <h2>Which Doggo is Your Guardian Doggo?</h2>
-                <p>Enter your name, and we'll assign you a guardian doggo!</p>
-                <input type="text" id="user-name" placeholder="Enter your name" />
-                <button onclick="assignGuardianDoggo()">Get My Guardian Doggo</button>
-                
-                <div id="doggo-result">
-                    <!-- Random doggo result will appear here -->
+                <div class="doggo-game-box">
+                    <h2>Which Doggo is Your Guardian Doggo?</h2>
+                    <p>Enter your name, and we'll assign you a guardian doggo!</p>
+                    <input type="text" id="user-name" placeholder="Enter your name" />
+                    <button onclick="assignGuardianDoggo()">Get My Guardian Doggo</button>
+                    
+                    <div id="doggo-result">
+                        <!-- Random doggo result will appear here -->
+                    </div>
                 </div>
             </div>
 
