@@ -733,7 +733,7 @@ p a:hover {
     padding: 20px;
     font-family: Arial, sans-serif;
     font-size: 14px;
-    color: rgb(226, 203, 97);
+    color: rgb(23, 23, 21);
     text-align: left;
     line-height: 1.4;
     z-index: 1;  /* Keep the text above the background */
