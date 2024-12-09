@@ -712,21 +712,25 @@ p a:hover {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);  /* Semi-transparent black background */
     color: white;
-    padding: 20px;
+    padding: 15px;  /* Reduced padding for a tighter fit */
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 14px;  /* Smaller font size */
+    text-align: left;  /* Align text to the left */
+    line-height: 1.4;  /* Adjust line spacing for better readability */
 }
 
 #overlay p {
-    font-size: 24px;
+    font-size: 20px;  /* Slightly smaller heading */
     font-weight: bold;
+    margin-bottom: 10px;  /* Add some space below the heading */
 }
 
 #overlay ul {
     margin-top: 10px;
     list-style-type: none;
+    padding-left: 0;  /* Remove any default padding */
 }
 
 #overlay ul li {
-    margin: 5px 0;
+    margin: 5px 0;  /* Smaller margin between list items */
 }
